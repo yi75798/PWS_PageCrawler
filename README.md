@@ -25,4 +25,6 @@
 輸出檔案範例如Tsaiingwen_test.csv 與 Tsaiingwen_test.xls
 
 2021.05.28 修正：  
-20210528PostInformation函式新增Post連結、改Content抓取方式、留言分享數單位
+20210528PostInformation函式新增Post連結、改Content抓取方式、留言分享數單位. 
+20210601改留言分享數單位、Content抓取方式. 
+
