@@ -107,7 +107,7 @@ def PostInformation(soup) -> pd.DataFrame:
             except:
                 Reaction = float(re.search(r"\d+", Reaction).group()) * 10000
         else:
-            Reaction = float(re.search(r"\d+", Reaction).group())
+            Reaction = float(re.sub("\D", "", Reaction))
     except:
         Reaction = ""
     ## 留言分享數
