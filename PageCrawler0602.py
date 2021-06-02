@@ -6,7 +6,7 @@
 #### Date:2021/05/27
 ### 20210528PostInformation函式新增Post連結、改Content抓取方式、留言分享數單位
 ### 20210601改留言分享數單位、Content抓取方式
-### 20210601增加FindLinks顯示迴圈數、每300次暫停2分鐘
+### 20210602增加FindLinks顯示迴圈數、每300次暫停2分鐘
 
 ### 0.載入套件
 from selenium import webdriver
@@ -34,8 +34,8 @@ driver = webdriver.Chrome(driver_location, options=my_options)
 ### 3.登入臉書，避免跳出一些視窗且降低ip被ban機會
 start_time = time.time() # 計時用
 # 輸入臉書帳密
-account = 'zxa_555@yahoo.com.tw' # 帳號
-password = 'zero89757yi75798' # 密碼
+account = 'xxx@xxxxxx' # 帳號
+password = 'xxxxxxxx' # 密碼
 
 # 登入函式
 def login(account, password, driver):
